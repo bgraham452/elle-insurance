@@ -1,0 +1,23 @@
+/* Elements */
+
+/* Classes */
+
+.about-container {
+  background-color: #FFF0F0;
+}
+
+.about-title{
+  text-align: center;
+  font-size: 29px;
+}
+.about-intro{
+  text-align: center;
+}
+
+.about-img{
+  padding-top: 0;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 320px;
+}

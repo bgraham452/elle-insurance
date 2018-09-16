@@ -1,0 +1,28 @@
+/* Elements */
+
+/* Classes */
+
+.advice-container {
+  background-color: #FFF0F0;
+}
+
+.advice-title{
+  text-align: center;
+  font-size: 30px;
+}
+
+.advice-description{
+  padding: 10px;
+}
+
+.advice-img{
+  padding-top: 0;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 320px;
+}
+
+.advice-description > ul {
+  padding-left: 0;
+}

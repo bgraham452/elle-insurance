@@ -1,0 +1,19 @@
+.App-footer {
+  border-top: 1px solid #4da5a1;
+  padding: 20px;
+}
+
+.footer-title{
+  text-align: center;
+  font-size: 21px;
+}
+.App-subtitle{
+  font-size: 10px;
+}
+.App-footer > button{
+  color:#FFF0F0;
+  background-color: #5CCBC5;
+  font-size: 20px;
+  position: relative;
+  left: 33%;
+}

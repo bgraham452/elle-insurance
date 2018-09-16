@@ -1,0 +1,47 @@
+/* Elements */
+
+/* Classes */
+
+.home-container {
+  background-color: #FFF0F0;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+
+.App-intro {
+  font-size: large;
+}
+
+.home-main-img{
+  padding: 10px;
+  width: 320px;
+}
+
+.intro-text{
+  text-align: justify;
+}
+.home-intro{
+  text-align: center;
+padding: 10px;
+}
+
+.home-intro > button {
+  color:#FFF0F0;
+  background-color: #5CCBC5;
+  font-size: 20px;
+}
+
+.home-scenarios-img{
+  padding: 10px;
+  width: 320px;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

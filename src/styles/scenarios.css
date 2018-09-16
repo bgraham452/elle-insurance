@@ -1,0 +1,36 @@
+.scenarios-container {
+  background-color: #FFF0F0;
+}
+a{
+  color: black;
+}
+h2 {
+  text-align: center;
+}
+.scenarios-title{
+  text-align: center;
+  font-size: 30px;
+}
+
+.scenarios-subtext{
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 50px;
+}
+
+.scenario-img{
+  padding-top: 0;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 320px;
+}
+.scenarios {
+  margin-top: 15px;
+  margin-bottom: 35px;
+
+}
+.scenarios-container > .scenarios > button{
+  position: relative;
+  left: 35%;
+}
