@@ -14,6 +14,7 @@ export class SecondLifeInsurance extends React.Component {
             <p className="advice-description">You are leaving your children exposed to financial hardship in your absence when you neglect to protect your children for their future.  
             STOP procrastinating, and purchase life insurance for each spouse as well as on each child. 
             Reasons to purchase life insurance for your children: <br /> <br />
+            </p>
             <ul>
             <li>In the event your child passes away, a life insurance policy provides the funds to pay for funeral expenses, family counseling, medical bills and provide money to pay for living expenses if one parent or both parents need to take leave from work. <br /> <br /></li>
             
@@ -29,7 +30,7 @@ export class SecondLifeInsurance extends React.Component {
             <li>When parents are dependent on the income of a child, should that child passaway it would become a financial hardship for the parents.  
             Purchasing permanent life insurance would provide the funds necessary that parents or a parent may be depended on.</li>
             </ul>
-            </p>
+          
             <Footer />
 
       </div>

@@ -22,7 +22,8 @@ export class HealthInsurance extends React.Component {
             An auto insurance policy can include several different kinds of coverage.  
             Your independent insurance agent will provide professional advice on the type and amount of car insurance coverage you should have to meet your individual needs and comply with the laws of your state.  
             Here are the principal kinds of coverage that your policy may include: <br /><br />
-            
+            </p>
+
             <ul>
              <li> Liability for Bodily Injury</li>
              <li>Liability for Property Damage</li>
@@ -33,7 +34,6 @@ export class HealthInsurance extends React.Component {
              <li>Personal Injury Protection (“PIP” or “No-fault”)</li>
              </ul>
 
-            </p>
             <Footer />
 
       </div>

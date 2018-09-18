@@ -21,6 +21,7 @@ export class RentersInsurance extends React.Component {
             Plus renters insurance covers more than your personal belongings at home. <br /> <br />
             
             Here are seven other things a policy covers:<br /> <br />
+            </p>
             <ol>
             
             <li>Hotel costs after a disaster</li>
@@ -32,7 +33,7 @@ export class RentersInsurance extends React.Component {
             <li>Belongings away from home</li>
             
             </ol>
-            </p>
+           
             <Footer />
 
       </div>
