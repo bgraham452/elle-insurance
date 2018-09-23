@@ -1,8 +1,5 @@
 /* Elements */
-ol, ul{
-  position: relative;
-  width: 71%;
-}
+
 
 /* Classes */
 
@@ -31,6 +28,10 @@ ol, ul{
 .advice-description > ul {
   padding-left: 0;
 }
+.advice-list{
+  position: relative;
+  width: 71%;
+}
 
 /* S5 */
 @media only screen and (min-width: 321px) and (max-width: 360px){
@@ -44,7 +45,7 @@ ol, ul{
   .advice-img{
     left: 7%;
   }
-  ol, ul{
+  .advice-list{
   
     left: 11%;
 
@@ -62,7 +63,7 @@ ol, ul{
   .advice-img{
     left: 11%;
   }
-  ol, ul{
+  .advice-list{
     left: 14%;
   }
 }
@@ -78,7 +79,7 @@ ol, ul{
   .advice-img{
     left: 11%;
   }
-  ol, ul{
+  .advice-list{
     left: 14%;
   }
 }
@@ -87,7 +88,7 @@ ol, ul{
   .advice-img{
     left: 22%;
   }
-  ol, ul{
+  .advice-list{
     left: 25%;
     width: 47%;
 
@@ -101,7 +102,7 @@ ol, ul{
   .scenarios-container > .scenarios > button{
     left: 43%;
   }
-  ol, ul{
+  .advice-list{
     left: 27%;
     width: 47%;
 
@@ -112,7 +113,7 @@ ol, ul{
   .advice-img{
     left: 26%;
   }
-  ol, ul{
+  .advice-list{
     left: 29%;
     width: 47%;
 
@@ -123,7 +124,7 @@ ol, ul{
   .advice-img{
     left: 28%;
   }
-  ol, ul{
+  .advice-list{
     left: 31%;
     width: 47%;
 
@@ -134,7 +135,7 @@ ol, ul{
   .advice-img{
     left: 28%;
   }
-  ol, ul{
+  .advice-list{
     left: 31%;
     width: 47%;
 
@@ -149,7 +150,7 @@ ol, ul{
   .advice-container {
     height: 1024px;
   }
-  ol, ul{
+  .advice-list{
     left: 31%;
     width: 33%;
   }
@@ -160,7 +161,7 @@ ol, ul{
   .advice-img{
     left: 30.5%;
   }
-  ol, ul{
+  .advice-list{
     left: 31%;
     width: 33%;
   }
@@ -171,7 +172,7 @@ ol, ul{
   .advice-img{
     left: 30.5%;
   }
-  ol, ul{
+  .advice-list{
     left: 31%;
     width: 33%;
   }
@@ -181,7 +182,7 @@ ol, ul{
   .advice-img{
     left: 34.5%;
   }
-  ol, ul{
+  .advice-list{
     left: 36%;
     width: 33%;
   }
@@ -198,7 +199,7 @@ ol, ul{
   .advice-container {
     height: 1366px;
   }
-  ol, ul{
+  .advice-list{
     left: 36%;
     width: 33%;
   }
@@ -208,7 +209,7 @@ ol, ul{
   .advice-img{
     left: 37.5%;
   }
-  ol, ul{
+  .advice-list{
     left: 39%;
     width: 33%;
   }
@@ -222,7 +223,7 @@ ol, ul{
   .advice-container {
     height: 1024px;
   }
-  ol, ul{
+  .advice-list{
     left: 39%;
     width: 33%;
   }

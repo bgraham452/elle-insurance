@@ -24,7 +24,7 @@ export class HealthInsurance extends React.Component {
             Here are the principal kinds of coverage that your policy may include: <br /><br />
             </p>
 
-            <ul>
+            <ul className="advice-list">
              <li> Liability for Bodily Injury</li>
              <li>Liability for Property Damage</li>
              <li>Collision</li>

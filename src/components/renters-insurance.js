@@ -22,7 +22,7 @@ export class RentersInsurance extends React.Component {
             
             Here are seven other things a policy covers:<br /> <br />
             </p>
-            <ol>
+            <ol className="advice-list">
             
             <li>Hotel costs after a disaster</li>
             <li>Medical expenses for injured guests</li>

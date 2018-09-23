@@ -15,7 +15,7 @@ export class SecondLifeInsurance extends React.Component {
             STOP procrastinating, and purchase life insurance for each spouse as well as on each child. 
             Reasons to purchase life insurance for your children: <br /> <br />
             </p>
-            <ul>
+            <ul className="advice-list">
             <li>In the event your child passes away, a life insurance policy provides the funds to pay for funeral expenses, family counseling, medical bills and provide money to pay for living expenses if one parent or both parents need to take leave from work. <br /> <br /></li>
             
             <li>A child who develops a medical problem early in life may have difficulty qualifying for life insurance as they get older.
