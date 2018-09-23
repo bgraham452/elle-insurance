@@ -21,8 +21,150 @@
   padding-left: 10px;
   padding-right: 10px;
   width: 320px;
+  position: relative;
 }
 
 .advice-description > ul {
   padding-left: 0;
+}
+
+/* S5 */
+@media only screen and (min-width: 321px) and (max-width: 360px){
+  .advice-img{
+    left: 5%;
+  }
+}
+
+/* iPhone 6/7/8 */
+@media only screen and (min-width: 361px) and (max-width: 375px){
+  .advice-img{
+    left: 7%;
+  }
+}
+  /* iPhone X */
+@media only screen and (min-width: 361px) and (max-width: 375px) and (-webkit-min-device-pixel-ratio: 3){
+  .scenario-img{
+    left: 7%;
+  }
+}
+
+/* Pixel 2*/
+@media only screen and (min-width: 376px) and (max-width: 411px){
+  .advice-img{
+    left: 11%;
+  }
+}
+
+/* Pixel 2 XL*/
+@media only screen and (min-width: 376px) and (max-width: 411px) and (-webkit-device-pixel-ratio: 3.5){
+  .advice-img{
+    left: 11%;
+  }
+}
+/* iPhone 6/7/8 Plus */
+@media only screen and (min-width: 412px) and (max-width: 414px) {
+  .advice-img{
+    left: 11%;
+  }
+}
+/* iPhone 5/SE Landscape */
+@media only screen and (min-width: 415px) and (max-width: 568px) {
+  .advice-img{
+    left: 22%;
+  }
+}
+/* S5 Landscape */
+@media only screen and (min-width: 569px) and (max-width: 640px) {
+  .scenario-img{
+    left: 25%;
+  }
+  .scenarios-container > .scenarios > button{
+    left: 43%;
+  }
+}
+/* iPhone 6/7/8 Landscape */
+@media only screen and (min-width: 641px) and (max-width: 667px) {
+  .advice-img{
+    left: 26%;
+  }
+  
+}
+/* Pixel 2 Landscape */
+@media only screen and (min-width: 668px) and (max-width: 731px) {
+  .advice-img{
+    left: 28%;
+  }
+
+}
+/* iPhone 6/7/8 Plus Landscape */
+@media only screen and (min-width: 732px) and (max-width: 736px) {
+  .advice-img{
+    left: 28%;
+  }
+ 
+}
+/* iPad */
+@media only screen and (min-width: 737px) and (max-width: 768px) {
+  .advice-img{
+    left: 31%;
+    width: 35%;
+  }
+  .advice-container {
+    height: 1024px;
+  }
+}
+
+/* iPhone X Landscape */
+@media only screen and (min-width: 769px) and (max-width: 812px) {
+  .advice-img{
+    left: 30.5%;
+  }
+ 
+}
+
+/* Pixel 2 XL Landscape */
+@media only screen and (min-width: 813px) and (max-width: 823px) {
+  .advice-img{
+    left: 30.5%;
+  }
+  
+}
+/* iPad Landscape */
+@media only screen and (min-width: 824px) and (max-width: 1024px) and (orientation: landscape){
+  .advice-img{
+    left: 34.5%;
+  }
+  .scenarios-container > .scenarios > button{
+    left: 45%;
+  }
+}
+/* iPad Pro */
+@media only screen and (min-width: 824px) and (max-width: 1024px){
+ 
+  .advice-img{
+    left: 12.5%;
+    width: 75%;
+    margin-top: 30px;
+
+  }
+  .advice-container {
+    height: 1366px;
+  }
+}
+/* Desktop */
+@media only screen and (min-width: 1025px) and (max-width: 1280px){
+  .advice-img{
+    left: 37.5%;
+  }
+  
+}
+/* iPad Pro Landscape */
+@media only screen and (min-width: 1281px) and (max-width: 1366px){
+  .advice-img{
+    left: 23%;
+    width: 55%;
+  }
+  .advice-container {
+    height: 1024px;
+  }
 }

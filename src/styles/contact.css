@@ -1,21 +1,24 @@
 /* Elements */
 
-/* Classes */
-
 .contact-container {
   background-color: #FFF0F0;
+  margin-right: 0;
 }
+
 .contact-container > h3 {
   text-align: center;
 }
+
 .contact-title{
   text-align: center;
   font-size: 29px;
 }
+
 .contact-form{
   margin-bottom: 30px;
 
 }
+
 .contact-form > input{
   width: 90%;
   border: 1px solid black;
@@ -32,18 +35,200 @@
 }
 
 .contact-form > a{
+  display: none;
+}
+.contact-container > ul {
   position: relative;
-  left: 35%;
+  width: 75%;
+  left: 10%;
+}
+.contact-submit {
+  position: relative;
+  bottom: 23px; 
+  left: 38%;
+}
+
+/* S5 */
+@media only screen and (min-width: 321px) and (max-width: 360px){
+  .contact-container > ul {
+    position: relative;
+    width: 75%;
+    left: 15%;
+  }
+}
+/* iPhone 6/7/8 */
+
+@media only screen and (min-width: 361px) and (max-width: 375px) and (-webkit-min-device-pixel-ratio: 3){
+  .contact-container {
+height: 812px;
+  }
+}
+/* Pixel 2*/
+@media only screen and (min-width: 376px) and (max-width: 411px){
 
 }
-.about-intro{
-  text-align: center;
+/* Pixel 2 XL*/
+@media only screen and (min-width: 376px) and (max-width: 411px) and (-webkit-device-pixel-ratio: 3.5){
+  .contact-container {
+    height: 823px;
+      }
 }
 
-.about-img{
-  padding-top: 0;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  width: 320px;
+
+/* iPhone 5/SE Landscape */
+@media only screen and (min-width: 415px) and (max-width: 568px) {
+  .contact-container > ul {
+    position: relative;
+    width: 50%;
+    left: 28%;
+  }
+  .contact-submit {
+    left: 43%;
+  }
+}
+/* S5 Landscape */
+@media only screen and (min-width: 569px) and (max-width: 640px) {
+  .contact-container > ul {
+    position: relative;
+    width: 50%;
+    left: 31%;
+  }
+  .contact-submit {
+    left: 45%;
+  }
+}
+
+/* iPhone 6/7/8 Landscape */
+@media only screen and (min-width: 641px) and (max-width: 667px) {
+  .contact-container > ul {
+    position: relative;
+    width: 50%;
+    left: 31%;
+  }
+  .contact-submit {
+    left: 45%;
+  }
+  
+}
+/* Pixel 2 Landscape */
+@media only screen and (min-width: 668px) and (max-width: 731px) {
+  .contact-container > ul {
+    position: relative;
+    width: 50%;
+    left: 31%;
+  }
+  .contact-submit {
+    left: 45%;
+  }
+}
+/* iPhone 6/7/8 Plus Landscape */
+@media only screen and (min-width: 732px) and (max-width: 736px) {
+  .contact-container > ul {
+    position: relative;
+    width: 50%;
+    left: 31%;
+  }
+  .contact-submit {
+    left: 45%;
+  }
+}
+
+/* iPad */
+@media only screen and (min-width: 737px) and (max-width: 768px) {
+  .contact-container {
+    height: 1024px;
+      }
+      .contact-container > ul {
+        position: relative;
+        width: 50%;
+        left: 31%;
+      }
+      .contact-submit {
+        left: 45%;
+      }
+}
+
+/* iPhone X Landscape */
+@media only screen and (min-width: 769px) and (max-width: 812px) {
+  .contact-container > ul {
+    position: relative;
+    width: 50%;
+    left: 33%;
+  }
+  .contact-submit {
+    left: 45%;
+  }
+ 
+}
+
+/* Pixel 2 XL Landscape */
+@media only screen and (min-width: 813px) and (max-width: 823px) {
+  .contact-container > ul {
+    position: relative;
+    width: 50%;
+    left: 33%;
+  }
+  .contact-submit {
+    left: 45%;
+  }
+}
+/* iPad Landscape */
+@media only screen and (min-width: 824px) and (max-width: 1024px) and (orientation: landscape){
+  .contact-container > ul {
+    position: relative;
+    width: 50%;
+    left: 37%;
+  }
+  .contact-submit {
+    left: 47%;
+  }
+}
+/* iPad Pro */
+@media only screen and (min-width: 824px) and (max-width: 1024px){
+  .contact-container {
+    height: 1366px;
+      }
+  .contact-container > ul {
+    position: relative;
+    width: 50%;
+    left: 37%;
+  }
+  .contact-submit {
+    left: 47%;
+  }
+  .contact-form > input{
+   height: 45px;
+  }
+}
+/* Desktop */
+@media only screen and (min-width: 1025px) and (max-width: 1280px){s
+  .contact-container > ul {
+    position: relative;
+    width: 50%;
+    left: 40%;
+  }
+  .contact-submit {
+    left: 47%;
+  }
+  .contact-form > input{
+   height: 45px;
+  }
+}
+/* iPad Pro Landscape */
+@media only screen and (min-width: 1281px) and (max-width: 1366px){
+ 
+  .contact-container {
+    height: 1024px;
+  }
+  .contact-container > ul {
+    position: relative;
+    width: 50%;
+    left: 40%;
+  }
+  .contact-submit {
+    left: 47%;
+  }
+  .contact-form > input{
+   height: 45px;
+  }
 }

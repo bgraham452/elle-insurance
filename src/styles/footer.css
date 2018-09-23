@@ -17,3 +17,101 @@
   position: relative;
   left: 33%;
 }
+/* Pixel 2 XL*/
+@media only screen and (min-width: 376px) and (max-width: 411px) and (-webkit-device-pixel-ratio: 3.5){
+  .App-footer > button {
+    left: 37%;
+  }
+  
+}
+
+@media only screen and (min-width: 415px) and (max-width: 568px) {
+.App-footer > button {
+  left: 41%;
+}
+
+}
+
+@media only screen and (min-width: 569px) and (max-width: 640px) {
+  .App-footer > button {
+    left: 42%;
+  }
+}
+/* iPhone 6/7/8 Landscape */
+@media only screen and (min-width: 641px) and (max-width: 667px) {
+  .App-footer > button {
+    left: 42%;
+  }
+}
+/* Pixel 2 Landscape */
+@media only screen and (min-width: 668px) and (max-width: 731px) {
+  .App-footer > button {
+    left: 43%;
+  }
+}
+/* iPhone 6/7/8 Plus Landscape */
+@media only screen and (min-width: 732px) and (max-width: 736px) {
+  .App-footer > button {
+    left: 43%;
+  }
+}
+
+/* iPad */
+@media only screen and (min-width: 737px) and (max-width: 768px) {
+  .footer-title{
+    font-size: 33px;
+  }
+  .App-footer > button {
+    left: 43%;
+  }
+}
+
+/* iPhone X Landscape */
+@media only screen and (min-width: 769px) and (max-width: 812px) {
+ 
+ .App-footer > button {
+    left: 43.5%;
+  }
+}
+/* Pixel 2 XL Landscape */
+@media only screen and (min-width: 813px) and (max-width: 823px) {
+  .App-footer > button {
+    left: 43.5%;
+  }
+}
+/* iPad Landscape */
+@media only screen and (min-width: 824px) and (max-width: 1024px) and (orientation: landscape){
+  .App-footer > button {
+    left: 45%;
+  }
+  .footer-title{
+    font-size: 33px;
+  }
+}
+/* iPad Pro */
+@media only screen and (min-width: 824px) and (max-width: 1024px){
+  .App-footer > button {
+    left: 45%;
+  }
+  .footer-title{
+    font-size: 33px;
+  }
+}
+/* Desktop */
+@media only screen and (min-width: 1025px) and (max-width: 1280px){
+  .App-footer > button {
+    left: 46%;
+  }
+  .footer-title{
+    font-size: 33px;
+  }
+}
+/* iPad Pro Landscape */
+@media only screen and (min-width: 1281px) and (max-width: 1366px){
+  .App-footer > button {
+    left: 46%;
+  }
+  .footer-title{
+    font-size: 33px;
+  }
+}

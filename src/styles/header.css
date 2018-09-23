@@ -14,3 +14,50 @@
 .App-subtitle{
   font-size: 10px;
 }
+
+/* iPad */
+@media only screen and (min-width: 737px) and (max-width: 768px) {
+  .App-title {
+    font-size: 20px;
+  }
+  .App-subtitle > i{
+    font-size: 15px;
+  }
+}
+
+/* iPad Landscape */
+@media only screen and (min-width: 824px) and (max-width: 1024px) and (orientation: landscape){
+  .App-title {
+    font-size: 20px;
+  }
+  .App-subtitle > i{
+    font-size: 15px;
+  }
+}
+/* iPad Pro */
+@media only screen and (min-width: 824px) and (max-width: 1024px){
+  .App-title {
+    font-size: 25px;
+  }
+  .App-subtitle > i{
+    font-size: 20px;
+  }
+}
+/* Desktop */
+@media only screen and (min-width: 1025px) and (max-width: 1280px){
+  .App-title {
+    font-size: 25px;
+  }
+  .App-subtitle > i{
+    font-size: 20px;
+  }
+}
+/* iPad Pro Landscape */
+@media only screen and (min-width: 1281px) and (max-width: 1366px){
+  .App-title {
+    font-size: 25px;
+  }
+  .App-subtitle > i{
+    font-size: 20px;
+  }
+}

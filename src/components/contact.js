@@ -15,6 +15,9 @@ export class Contact extends React.Component {
       <h3>Send her an email!</h3>
       <ReactContactForm to="bgraham452@gmail.com" className="contact-form" />
 
+<a href="mailto:bgraham452@gmail.com?subject=&body=" className="contact-submit">
+Send E-mail
+</a>
       <h3>Or Contact Her Here!</h3>
       <ul>
           <li>Phone Number: (555)-5555</li>
