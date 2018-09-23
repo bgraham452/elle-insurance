@@ -1,4 +1,8 @@
 /* Elements */
+ol, ul{
+  position: relative;
+  width: 71%;
+}
 
 /* Classes */
 
@@ -40,6 +44,11 @@
   .advice-img{
     left: 7%;
   }
+  ol, ul{
+  
+    left: 11%;
+
+  }
 }
   /* iPhone X */
 @media only screen and (min-width: 361px) and (max-width: 375px) and (-webkit-min-device-pixel-ratio: 3){
@@ -52,6 +61,9 @@
 @media only screen and (min-width: 376px) and (max-width: 411px){
   .advice-img{
     left: 11%;
+  }
+  ol, ul{
+    left: 14%;
   }
 }
 
@@ -66,11 +78,19 @@
   .advice-img{
     left: 11%;
   }
+  ol, ul{
+    left: 14%;
+  }
 }
 /* iPhone 5/SE Landscape */
 @media only screen and (min-width: 415px) and (max-width: 568px) {
   .advice-img{
     left: 22%;
+  }
+  ol, ul{
+    left: 25%;
+    width: 47%;
+
   }
 }
 /* S5 Landscape */
@@ -81,27 +101,44 @@
   .scenarios-container > .scenarios > button{
     left: 43%;
   }
+  ol, ul{
+    left: 27%;
+    width: 47%;
+
+  }
 }
 /* iPhone 6/7/8 Landscape */
 @media only screen and (min-width: 641px) and (max-width: 667px) {
   .advice-img{
     left: 26%;
   }
-  
+  ol, ul{
+    left: 29%;
+    width: 47%;
+
+  }
 }
 /* Pixel 2 Landscape */
 @media only screen and (min-width: 668px) and (max-width: 731px) {
   .advice-img{
     left: 28%;
   }
+  ol, ul{
+    left: 31%;
+    width: 47%;
 
+  }
 }
 /* iPhone 6/7/8 Plus Landscape */
 @media only screen and (min-width: 732px) and (max-width: 736px) {
   .advice-img{
     left: 28%;
   }
- 
+  ol, ul{
+    left: 31%;
+    width: 47%;
+
+  }
 }
 /* iPad */
 @media only screen and (min-width: 737px) and (max-width: 768px) {
@@ -112,6 +149,10 @@
   .advice-container {
     height: 1024px;
   }
+  ol, ul{
+    left: 31%;
+    width: 33%;
+  }
 }
 
 /* iPhone X Landscape */
@@ -119,7 +160,10 @@
   .advice-img{
     left: 30.5%;
   }
- 
+  ol, ul{
+    left: 31%;
+    width: 33%;
+  }
 }
 
 /* Pixel 2 XL Landscape */
@@ -127,15 +171,19 @@
   .advice-img{
     left: 30.5%;
   }
-  
+  ol, ul{
+    left: 31%;
+    width: 33%;
+  }
 }
 /* iPad Landscape */
 @media only screen and (min-width: 824px) and (max-width: 1024px) and (orientation: landscape){
   .advice-img{
     left: 34.5%;
   }
-  .scenarios-container > .scenarios > button{
-    left: 45%;
+  ol, ul{
+    left: 36%;
+    width: 33%;
   }
 }
 /* iPad Pro */
@@ -150,21 +198,32 @@
   .advice-container {
     height: 1366px;
   }
+  ol, ul{
+    left: 36%;
+    width: 33%;
+  }
 }
 /* Desktop */
 @media only screen and (min-width: 1025px) and (max-width: 1280px){
   .advice-img{
     left: 37.5%;
   }
-  
+  ol, ul{
+    left: 39%;
+    width: 33%;
+  }
 }
 /* iPad Pro Landscape */
 @media only screen and (min-width: 1281px) and (max-width: 1366px){
   .advice-img{
-    left: 23%;
-    width: 55%;
+    left: 35.5%;
+    width: 30%;
   }
   .advice-container {
     height: 1024px;
+  }
+  ol, ul{
+    left: 39%;
+    width: 33%;
   }
 }
